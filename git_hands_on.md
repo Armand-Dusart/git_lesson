@@ -133,7 +133,7 @@ git add *
 
 ```bash
 # Your answer
-git push
+git push origin "nom de la branch"
 ```
 
 Easy right? Now you can check that everything is ok on the github page.
@@ -196,7 +196,7 @@ git commit -m "commentaires"
 
 ```bash
 # Your answer
-git push
+git push 
 ```
 
 
@@ -227,19 +227,19 @@ sh replace_in_file character2/Tyler.txt "[???]"
 
 ```bash
 # Your answer
-
+git add character2/Tyler.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "modif sur character 2"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 
@@ -270,19 +270,19 @@ sh replace_in_file character2/Jim.txt "[???]"
 
 ```bash
 # Your answer
-
+git add .
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "commentaires"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 
@@ -313,19 +313,19 @@ sh replace_in_file character2/Emmet.txt "[???]"
 
 ```bash
 # Your answer
-
+git add .
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "commentaires"
 ```
 
 
 ```bash
 # Your answer
-
+git push
 ```
 
 
@@ -352,7 +352,7 @@ For this time I'll give you the answer, Luke said *"NOOOOOOOOOOOOOO NOOOOOOOO"* 
 
 ```bash
 # Your answer
-sh replace_in_file character2/Luke.txt "[???]"
+sh replace_in_file character2/Luke.txt "[NOOOOO NOOOO]"
 ```
 
 **<font color='#ffb799'>Now commit your changes (but don't push)</font>**
@@ -360,13 +360,13 @@ sh replace_in_file character2/Luke.txt "[???]"
 
 ```bash
 # Your answer
-
+git add character2/Luke.txt
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "NOOOO NOOO"
 ```
 
 
@@ -387,19 +387,19 @@ Ok, in fact I was wrong Luke didn't said it twice, it think it was just one simp
 
 ```bash
 # Your answer
-
+sh replace_in_file character2/Luke.txt "[NOOOOO]"
 ```
 
 
 ```bash
 # Your answer
-
+git add character2/Luke.txt
 ```
 
 
 ```bash
 # Your anwser
-
+git commit -m "NOOO"
 ```
 
 Well after reviewing the scene (that you can find just here: https://www.youtube.com/watch?v=bv20ZoBcdO8 we were right in the first place.
